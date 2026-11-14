@@ -1,13 +1,13 @@
 :root {
-  --bg: #0e0b14;
-  --panel: #171221;
-  --panel-2: #1f1830;
-  --ink: #f4eefb;
-  --muted: #b3a7c9;
-  --brand: #e5447d;
-  --brand-2: #8a5cf6;
-  --good: #3ad29f;
-  --line: #2a2140;
+  --bg: #0b1220;
+  --panel: #121a2e;
+  --panel-2: #182340;
+  --ink: #eef4ff;
+  --muted: #9fb0d0;
+  --brand: #3b82f6;
+  --brand-2: #22d3ee;
+  --good: #34d399;
+  --line: #26324f;
   color-scheme: dark;
 }
 
@@ -42,10 +42,11 @@ body {
   backdrop-filter: blur(8px);
   z-index: 5;
 }
-.logo { font-weight: 800; font-size: 19px; letter-spacing: -0.02em; }
+.logo { font-weight: 800; font-size: 19px; letter-spacing: -0.02em; display: inline-flex; align-items: center; gap: 8px; }
+.logo-mark { width: 26px; height: 26px; display: block; }
 .badge {
   font-size: 11px; color: var(--good);
-  border: 1px solid rgba(58,210,159,0.4);
+  border: 1px solid rgba(52,211,153,0.4);
   padding: 3px 9px; border-radius: 999px; text-transform: uppercase; letter-spacing: 0.08em;
 }
 
@@ -95,8 +96,8 @@ button { cursor: pointer; font: inherit; }
 }
 .card.tappable { width: 100%; }
 .card.tappable:active { background: var(--panel-2); }
-.card.good { border-color: rgba(58,210,159,0.35); }
-.card.fix { border-color: rgba(229,68,125,0.35); }
+.card.good { border-color: rgba(52,211,153,0.35); }
+.card.fix { border-color: rgba(59,130,246,0.35); }
 .card ul { margin: 8px 0 0; padding-left: 18px; color: var(--muted); }
 .card li { margin: 4px 0; }
 
@@ -144,6 +145,6 @@ button { cursor: pointer; font: inherit; }
 
 .srcline { margin-top: 10px; }
 .srctag { font-size: 11px; padding: 3px 9px; border-radius: 999px; letter-spacing: 0.04em; }
-.srctag.ai { color: var(--brand-2); border: 1px solid rgba(138,92,246,0.4); }
+.srctag.ai { color: var(--brand-2); border: 1px solid rgba(34,211,238,0.4); }
 .srctag.off { color: var(--muted); border: 1px solid var(--line); }
 .bubble.typing { opacity: 0.6; letter-spacing: 2px; }

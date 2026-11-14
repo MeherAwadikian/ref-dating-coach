@@ -5,11 +5,11 @@ import type { CapacitorConfig } from '@capacitor/cli';
 // Then open in Xcode:                npx cap open ios
 const config: CapacitorConfig = {
   appId: 'com.flirtpilot.app',
-  appName: 'FlirtPilot',
+  appName: 'Wingman',
   webDir: 'dist',
   ios: {
     contentInset: 'always',
-    backgroundColor: '#0e0b14',
+    backgroundColor: '#0b1220',
   },
   server: {
     // Leave undefined for production (loads the bundled build).

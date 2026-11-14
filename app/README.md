@@ -1,4 +1,4 @@
-# FlirtPilot (app)
+# Wingman (app)
 
 On-device dating-conversation copilot. One codebase → **PWA** (Cloudflare Pages) and **native
 iOS** (Capacitor → TestFlight). Clean-room; contains no third-party code or assets.

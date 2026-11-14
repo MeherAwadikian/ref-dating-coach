@@ -1,4 +1,4 @@
-// FlirtPilot engine.
+// Wingman engine.
 //
 // Each public function tries the real AI backend first (Cloudflare Pages Function at
 // /api/ai, which calls OpenRouter server-side), and transparently falls back to the

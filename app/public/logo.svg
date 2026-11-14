@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Wingman">
+  <defs>
+    <linearGradient id="wm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#wm)">
+    <!-- left wing -->
+    <path d="M214 250 C150 204 78 200 36 158 C60 212 104 248 172 260 C138 258 116 270 94 268 C128 282 176 280 206 270 Z"/>
+    <!-- right wing -->
+    <path d="M298 250 C362 204 434 200 476 158 C452 212 408 248 340 260 C374 258 396 270 418 268 C384 282 336 280 306 270 Z"/>
+    <!-- heart -->
+    <path d="M256 384 C247 384 238 380 231 373 L186 328 C165 307 165 273 186 252 C205 233 237 231 258 250 C279 231 311 233 330 252 C351 273 351 307 330 328 L285 373 C278 380 269 384 256 384 Z"/>
+  </g>
+</svg>

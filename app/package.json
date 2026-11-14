@@ -1,8 +1,8 @@
 {
-  "name": "flirtpilot-app",
+  "name": "wingman-app",
   "version": "0.1.0",
   "private": true,
-  "description": "FlirtPilot — on-device dating-conversation copilot (PWA + iOS via Capacitor). Clean-room; no third-party assets.",
+  "description": "Wingman: on-device dating-conversation copilot (PWA + iOS via Capacitor). Clean-room; no third-party assets.",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -24,9 +24,10 @@
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
+    "sharp": "^0.35.5",
     "typescript": "^5.6.3",
     "vite": "^5.4.11",
-    "wrangler": "^3.90.0",
-    "vite-plugin-pwa": "^0.20.5"
+    "vite-plugin-pwa": "^0.20.5",
+    "wrangler": "^3.90.0"
   }
 }

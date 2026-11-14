@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div className="app">
       <header className="topbar">
-        <span className="logo">💘 FlirtPilot</span>
+        <span className="logo"><img className="logo-mark" src="/logo.svg" alt="" /> Wingman</span>
         <span className="badge">AI coach</span>
       </header>
 
