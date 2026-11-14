@@ -21,6 +21,14 @@ export default defineConfig({
         orientation: 'portrait',
         start_url: '/',
         scope: '/',
+        // Android: share selected text / a link straight into Wingman Coach.
+        // (iOS Safari ignores share_target; the in-app "Paste a screenshot" OCR
+        // covers image input everywhere.)
+        share_target: {
+          action: '/',
+          method: 'GET',
+          params: { title: 'title', text: 'text', url: 'url' },
+        },
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
@@ -29,6 +37,9 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        // The wink-nlp model + tesseract OCR core are large, lazy-loaded chunks —
+        // keep them out of the install-time precache so first load stays light.
+        globIgnores: ['**/model-*.js', '**/native-*.js'],
         navigateFallback: '/index.html',
       },
     }),
